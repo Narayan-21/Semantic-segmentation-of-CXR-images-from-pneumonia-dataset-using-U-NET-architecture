@@ -8,7 +8,7 @@ Semantic segmentation of CXR images from pneumonia dataset using U-NET architect
 
 Developed by Olaf Ronneberger et al. for Biomedical Image Segmentation in 2015 at the University of Freiburg, Germany, U-Net is an architecture for semantic segmentation. Semantic segmentation is a computer vision task that involves assigning a label to each pixel in an image, enabling pixel-level understanding. This project aims to implement semantic segmentation on CXR images using the U-Net architecture, enabling accurate identification and segmentation of pneumonia regions.
 ## Dataset
-The dataset for this project consist of Chest X-ray images and the masked version for training. Along with it we have the test images (or cross validation images) to further test our algorithm. This dataset is taken from an online repository of the dataset on kaggle. You can download this dataset using this [url]('https://www.kaggle.com/datasets/newra008/chest-segmentation-image?resource=download'). This dataset consist of images of size 512 X 512.
+The dataset for this project consist of Chest X-ray images and the masked version of it for training. Along with it we have the test images (or cross validation images) to test our algorithm. This dataset is taken from an online repository of the dataset on kaggle. You can download this dataset using this [url](https://www.kaggle.com/datasets/newra008/chest-segmentation-image?resource=download). This dataset consist of images of size 512 X 512.
 ## Installation
 To run this implementation, follow these steps:
 1. Clone this repository: 'git clone https://github.com/Narayan-21/Semantic-segmentation-of-CXR-images-from-pneumonia-dataset-using-U-NET-architecture.git'
@@ -41,13 +41,6 @@ Figure-2: The original masked version of the CXR images.
 ![pred_0](https://github.com/Narayan-21/Semantic-segmentation-of-CXR-images-from-pneumonia-dataset-using-U-NET-architecture/assets/64371700/4e809189-f211-451f-89b1-a71db6b69151)
 Figure-3: The generated masked images.
 
-## Usage
-1. Navigate to the project directory: 'cd your-repo'
-2. You can change the hyperparameters that are otherwise predecided in the 'train.py' file.
-3. Run the UNET model using following command on your CLI: 
-```python
-python train.py
-```
 ## License
 This Project is licensed under [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
 ## Acknowledgements
